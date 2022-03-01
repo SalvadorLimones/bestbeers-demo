@@ -55,12 +55,12 @@ let beerHTML = "";
 beers.map((beer, i) => {
   beerHTML += `
     <div class="beercard">
-      <div class="beer-number">${i + 1}</div>
-      <div class="beer-title">${beer.title}</div>
+      <p class="beer-number">${i + 1}</p>
+      <p class="beer-title">${beer.title}</p>
       <div class="card-line"></div>
       <div class="beer-subtext">
-      <div class="beer-sub">${beer.sub}</div>
-      <div class="beer-text">${beer.text}</div>
+      <p class="beer-sub">${beer.sub}</p>
+      <p class="beer-text">${beer.text}</p>
       </div>
       <button class="beer-button">
         details
